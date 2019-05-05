@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://banckend-applications.herokuapp.com"
+    baseURL: "https://onmistack-backend.herokuapp.com"
 });
 
 export default api;
